@@ -3,4 +3,3 @@ for i in range(10):
     for x in range(10):
         if i != x:
             print("{:d}{:d}, " .format(i, x), end="")
-print("89")
