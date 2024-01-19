@@ -1,6 +1,4 @@
 #!/usr/bin/python3
 for i in range(97, 123):
-    if i == 101 or == 113:
-        break
-    else:
+    if i not in(101, 113):
         print("{letter:c}".format(letter=i), end="")
