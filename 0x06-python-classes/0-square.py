@@ -4,6 +4,4 @@
 
 class Square:
     """This class makes squares."""
-
-
     pass
