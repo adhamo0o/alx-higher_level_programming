@@ -8,7 +8,6 @@ class Square:
         """
         Initializes the square with the given size.
     
-
         Args:
             size (int): The size of a square.
         """
