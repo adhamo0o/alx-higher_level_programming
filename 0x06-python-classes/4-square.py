@@ -17,7 +17,6 @@ class Square:
         self.__size = size
     
     def size(self):
-        """This function returns the size."""
         return self.size
 
     def size(self, value):
