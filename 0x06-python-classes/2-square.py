@@ -2,7 +2,7 @@
 """This is a class called square."""
 
 
-class square:
+class Square:
     """Class that defines a square."""
     def __init__(self, size=0):
         """
