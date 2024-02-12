@@ -4,17 +4,14 @@
 
 class Square:
     """Represents a square with a given size.
-
     Attributes:
         __size (int): The size of the square.
     """
 
     def __init__(self, size=0):
         """Initializes the square with the given size.
-
         Args:
             size (int, optional): The initial size of the square. Defaults to 0.
-
         Raises:
             TypeError: If size is not an integer.
             ValueError: If size is negative.
@@ -27,7 +24,6 @@ class Square:
 
     def size(self):
         """Returns the current size of the square.
-
         Returns:
             int: The size of the square.
         """
@@ -35,10 +31,8 @@ class Square:
 
     def set_size(self, value):
         """Sets the size of the square.
-
         Args:
             value (int): The new size of the square.
-
         Raises:
             TypeError: If value is not an integer.
             ValueError: If value is negative.
@@ -51,7 +45,6 @@ class Square:
 
     def area(self):
         """Calculates and returns the area of the square.
-
         Returns:
             int: The area of the square.
         """
